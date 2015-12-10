@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="container">
+        <View id="navbar">
+            <Label id="btnBack" onClick="close"></Label>
+            <Label id="title">FILTERS</Label>
+        </View>
+        <ImageView id="img"></ImageView>
+    </Window>
+</Alloy>

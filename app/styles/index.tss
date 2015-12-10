@@ -1,15 +1,49 @@
-".container": {
-	backgroundColor:"white"
+"#title": {
+    font : {
+        fontSize: "14sp",
+        fontWeight: "bold"
+    }
 }
-
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+"#camera": {
+    top: 52
+},
+"#snapBtn": {
+    zIndex: 2,
+    bottom: 90,
+    color: '#fff',
+    text: '\uf313',
+    font: {
+        fontFamily : 'Ionicons',
+        fontSize : '100sp'
+    }
+},
+"#switchBtn": {
+    zIndex: 2,
+    bottom: 100,
+    left: 10,
+    width : 40,
+    height : 40,
+    color: '#fff',
+    text: '\uf3b1',
+    textAlign: 'center',
+    font: {
+        fontFamily : 'Ionicons',
+        fontSize : '20sp'
+    }
 }
+"#flashBtn": {
+    zIndex: 2,
+    bottom: 100,
+    width : 40,
+    height : 40,
+    right: 10,
+    color: '#fff',
+    text: '\uf137',
+    textAlign: 'center',
+    font: {
+        fontFamily : 'Ionicons',
+        fontSize : '20sp'
+    },
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+    state : 'OFF'
 }

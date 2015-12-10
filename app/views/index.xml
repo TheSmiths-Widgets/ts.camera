@@ -1,5 +1,11 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <Window id="container">
+        <View id="navbar">
+            <Label id="title">PHOTO</Label>
+        </View>
+        <Widget id="camera" src="ts.camera" onPictureTaken="onPictureTaken" />
+        <Label id="snapBtn" onClick="clickedOnSnapBtn"></Label>
+        <Label id="switchBtn" onClick="clickedOnSwitchBtn"></Label>
+        <Label id="flashBtn" onClick="clickedOnFlashBtn"></Label>
+    </Window>
 </Alloy>

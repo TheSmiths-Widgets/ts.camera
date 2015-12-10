@@ -1,0 +1,16 @@
+"#btnBack": {
+    left: 25,
+    right: 25,
+    height: "100%",
+    text: "\uf2ca",
+    font : {
+        fontFamily : "Ionicons",
+        fontSize : "30sp"
+    }
+},
+"#title": {
+    font : {
+        fontSize : "14sp",
+        fontWeight: "bold"
+    }
+},
