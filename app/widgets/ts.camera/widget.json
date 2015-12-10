@@ -1,0 +1,17 @@
+{
+	"id": "ts.camera",
+	"name": "ts.camera",
+	"description" : "Uniform wrapper for iOS com.mfogg.squarecamera and Android pw.custom.androidcamera modules",
+	"author": "The Smiths [Duy Bao Nguyen]",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015",
+	"license":"Apache 2.0",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"camera, thesmiths",
+	"platforms":"android,ios",
+	"modules": {
+		"com.mfogg.squarecamera": "*",
+		"pw.custom.androidcamera": "*"
+	}
+}
