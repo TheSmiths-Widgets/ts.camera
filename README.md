@@ -7,10 +7,6 @@ Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http:/
 ## ts.camera
 Uniform wrapper for iOS com.mfogg.squarecamera and Android pw.custom.androidcamera modules. All icons are provided by [Ionicons](https://github.com/driftyco/ionicons) font; Refer to their documentation to find which icon is available.
 
-## Previews 
-
-![screenshot]()
-
 ## How to use
 
 **index.xml**
@@ -29,8 +25,35 @@ Uniform wrapper for iOS com.mfogg.squarecamera and Android pw.custom.androidcame
 **index.tss**
 ```javascript
 "#camera": { // styles for the camera
-    top: 52
+    top: 64,
+    width: '100%', // default value is the width of the screen
+    height: '100%' // default value is the same value of the width
 },
 ```
+
+**index.js**
+```javascript
+function onPictureTaken(e) {
+    console.log(e.image); // the taken photo
+}
+```
+
+## Methods
+Both platforms share the same API:
+
+| Function     | Parameters | Usage |
+| ----------   | ---------- | ----- |
+| snapPicture  |            | Take a photo |
+| switchCamera |            | Switch the camera `front` or `back` |
+| switchFlash  |            | Turn on or off the flashlight |
+
+## Events
+| Event        | Usage |
+| ----------   | ----- |
+| pictureTaken | Will fire when a picture is taken |
+
+## Changelog
+* 1.0
+  * Initial version
 
 [![wearesmiths](http://wearesmiths.com/media/logoGitHub.png)](http://wearesmiths.com)
