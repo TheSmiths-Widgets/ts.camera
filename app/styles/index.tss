@@ -19,7 +19,7 @@
 },
 "#switchBtn": {
     zIndex: 2,
-    bottom: 100,
+    bottom: 170,
     left: 10,
     width : 40,
     height : 40,
@@ -33,7 +33,7 @@
 }
 "#flashBtn": {
     zIndex: 2,
-    bottom: 100,
+    bottom: 170,
     width : 40,
     height : 40,
     right: 10,
