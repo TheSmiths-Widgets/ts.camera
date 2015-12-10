@@ -5,13 +5,27 @@ Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http:/
 [![License](http://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://choosealicense.com/licenses/apache-2.0/)
 
 ## ts.camera
-Uniform wrapper for iOS com.mfogg.squarecamera and Android pw.custom.androidcamera modules. All icons are provided by [Ionicons](https://github.com/driftyco/ionicons) font; Refer to their documentation to find which icon is available.
+Uniform wrapper for iOS [com.mfogg.squarecamera](https://github.com/mikefogg/SquareCamera) and Android [pw.custom.androidcamera](https://github.com/brownemint/Ti-Android-CameraView) modules. All icons are provided by [Ionicons](https://github.com/driftyco/ionicons) font; Refer to their documentation to find which icon is available.
 
 ## Previews 
 
 ![screenshot](demo.gif)
 
 ## How to use
+
+**tiapp.xml**
+```xml
+...
+<android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+        <!-- Camera Permissions -->
+        <uses-permission android:name="android.permission.CAMERA"/>
+        <uses-feature android:name="android.hardware.camera"/>
+        <uses-feature android:name="android.hardware.camera.autofocus"/>
+    </manifest>
+</android>
+...
+```
 
 **index.xml**
 
