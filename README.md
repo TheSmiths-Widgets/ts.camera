@@ -7,6 +7,10 @@ Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http:/
 ## ts.camera
 Uniform wrapper for iOS com.mfogg.squarecamera and Android pw.custom.androidcamera modules. All icons are provided by [Ionicons](https://github.com/driftyco/ionicons) font; Refer to their documentation to find which icon is available.
 
+## Previews 
+
+![screenshot](demo.gif)
+
 ## How to use
 
 **index.xml**
